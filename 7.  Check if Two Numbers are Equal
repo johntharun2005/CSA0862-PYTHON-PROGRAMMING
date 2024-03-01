@@ -1,0 +1,6 @@
+n1=int(input("enter a number:\n"))
+n2=int(input("enter a number: \n"))
+if(n1==n2):
+    print("equal")
+else:
+    print("not equal")
