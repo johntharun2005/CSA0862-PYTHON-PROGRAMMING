@@ -1,0 +1,9 @@
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+print("before swapping")
+print(a,"and",b)
+a=a^b
+b=a^b
+a=a^b
+print("after swapping")
+print(a,"and",b)
