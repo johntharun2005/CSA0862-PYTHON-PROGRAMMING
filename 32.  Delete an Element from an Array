@@ -1,0 +1,12 @@
+# importing the array module
+from array import array
+
+# creating an integer data type array
+myArray = array('i', [1,2,3,4,5,6,1,2,3,2,4,7])
+
+# using the remove() function to remove the 1st 2 from the array
+myArray.remove(2)
+myArray.remove(7)
+
+# printing the new array
+print('The new array after element 2 and 7 have been removed is: ', myArray)
