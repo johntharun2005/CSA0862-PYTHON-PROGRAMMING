@@ -1,0 +1,16 @@
+def printUnion(a, n,  b, m):
+    mp = {}
+    for i in range(n):
+        mp[a[i]] = i
+ 
+    for i in range(m):
+        mp[b[i]] = i
+ 
+    print("The union set of both arrays is : ")
+    for key in mp.keys():
+ 
+        print(key, end=" ")
+a = [1, 2, 5, 6, 2, 3, 5]
+b = [2, 4, 5, 6, 8, 9, 4, 6, 5]
+ 
+printUnion(a, 7, b, 9)
