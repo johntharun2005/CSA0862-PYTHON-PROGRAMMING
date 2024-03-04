@@ -1,0 +1,13 @@
+from collections import defaultdict
+def CalcUnique(A, N):
+    freq = defaultdict(int)
+    for i in range(N):
+        freq[A[i]] += 1
+    for i in range(N):
+        if (freq[A[i]] == 1):
+            print(A[i])
+            return
+if __name__ == "__main__":
+    A = [1, 1, 2, 3, 3]
+    N = len(A)
+    CalcUnique(A, N)
