@@ -1,0 +1,9 @@
+def array_sum(arr):
+    total = 0
+    index = 0
+    while index < len(arr):
+        total += arr[index]
+        index += 1
+    return total
+array = [1, 2, 3, 4, 5]
+print(array_sum(array))  
